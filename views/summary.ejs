@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted Books</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="summary-container">
+        <h1>Submitted Books</h1>
+        <% if (books.length > 0) { %>
+            <% books.forEach(book => { %>
+                <div class="book-entry">
+                    <h2><%= book.title %></h2>
+                    <p><strong>Rating:</strong> <%= book.rating %></p>
+                    <p><%= book.comment %></p>
+                </div>
+            <% }); %>
+        <% } else { %>
+            <p>No books submitted yet.</p>
+        <% } %>
+        <a href="/" class="back-link">Back to Form</a>
+    </div>
+</body>
+</html>

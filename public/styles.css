@@ -1,0 +1,107 @@
+/* Home Page Styling */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e4e4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Papyrus', fantasy;
+    color: #333;
+    font-size: 37px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+input, textarea {
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 100%;
+    background: #fdfdfd;
+}
+
+button {
+    background-color: #cd89e9;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #be72dc;
+}
+
+/* Summary Page Styling */
+.summary-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book-entry {
+    background: #ffe0f0;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-entry h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #b843ca;
+}
+
+.book-entry p {
+    margin: 4px 0;
+    color: #555;
+}
+
+/* Back to Form Link */
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    color: #2575fc;
+}
